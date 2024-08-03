@@ -1,3 +1,5 @@
+from abc import ABC, abstractmethod
+
 class Animal:
 
   #constructeur
@@ -6,6 +8,7 @@ class Animal:
     self.species = species
     self.age = age
     
-  #methode sounds()
+  #methode sounds() is abstract so we import it
+  @abstractmethod
   def make_sound(self):
-    return f"sounds of {self.name} "
+    pass
