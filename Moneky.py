@@ -1,0 +1,2 @@
+class Moneky (Animal):
+  pass
