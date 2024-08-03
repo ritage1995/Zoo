@@ -1,3 +1,7 @@
-class Elephant (Animal):
+#class Elephant herit from class animal
+
+class Elephant(Animal):
+  
   # super.make_sound()
-  pass
+  def make_sound(self):
+    return " Trumpet "
