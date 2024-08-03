@@ -1,0 +1,2 @@
+class Elephant (Animal):
+  pass
